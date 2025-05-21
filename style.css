@@ -1,0 +1,271 @@
+
+:root
+{
+    --bg: #080808;
+    --nav: #1a1a1a;
+    --txt: #444444;
+    --light: #ffffff;
+    --btn-mn: #3e8e00;
+}
+
+
+body {
+    /* background-color: var(--bg); */
+    color: var(--txt);
+    margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+
+.top-bar {
+    background-color: var(--nav);
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 0 0 25px 25px;
+}
+.top-lnk {
+    padding: 1em;
+}
+.top-lnk ul {
+    display: flex;
+    justify-content: space-around;
+}
+.top-lnk li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14;
+    font-weight: 400;
+}
+.top-lnk a {
+    text-decoration: none;
+    color: var(--txt);
+}
+
+
+.mn {
+    /* display: flex; */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15vh;    
+    justify-content: space-between;
+}
+
+.mn-txt {
+    width: 50%;
+    align-self: center;
+}
+.mn-txt h1 {
+    color: var(--light);
+    font-size: 44px;
+}
+.mn-txt p {
+    font-size: 16px;
+}
+.mn-btn button{
+    padding: 15px;
+    width: 70%;
+    font-size: 16px;
+    background-color: var(--btn-mn);
+    color: white;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.mn-img {
+    width: 50%;
+    position: relative;
+}
+.mnsub-img {
+    height: 20rem;
+    width: 20rem;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 50%;
+    float: right;
+}
+.mn-img img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.wrk-btn {
+    display: flex;
+    justify-content: space-around;
+}
+.mn-wrk {
+    padding-bottom: 10vh;
+}
+.mn-wrk button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: var(--bg);
+    border-color: var(--nav);
+    border: 2px solid;
+    color: #525252;
+    border-radius: 5px;
+}
+.mn-wrk p {
+    color: var(--light);
+    margin-top: 10vh;
+}
+
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sc2-txt {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15vh;
+}
+.sc2-txt h1{
+    color: var(--bg);
+    font-size: 36px;
+}
+.sc2-txt p{
+    color: #525252;
+    font-size: 14px;
+}
+
+.sc2-txt-img {
+    margin-top: 10vh;
+}
+.ti-txt span{
+    background-color: #fff7e9;
+    color: #ffcf86;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.txt-img {
+    display: flex;
+    justify-content: space-between;
+}
+.ti-txt {
+    width: 50%;
+    text-align: left;
+    align-self: center;
+    /* background-color: #3e8e00; */
+}
+.ti-img img{
+    border-radius: 10px;
+}
+
+.sc2-img-txt {
+    margin-top: 10vh;
+}
+.it-txt span{
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.img-txt {
+    display: flex;
+    justify-content: space-between;
+}
+.it-txt {
+    width: 50%;
+    /* background-color: #3e8e00; */
+}
+.it-img{
+    width: 50%;
+    /* background-color: red; */
+}
+.it-img img{
+    border-radius: 10px;
+}
+
+
+.sc3-h {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10vh;
+}
+.sc3-h h1{
+    color: var(--light);
+    font-size: 36px;
+}
+.sc3-h p{
+    color: #525252;
+    font-size: 14px;
+}
+
+
+.sc3-itms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2);
+    gap: 1rem 2rem;
+    padding-bottom: 10vh;
+}
+
+.sc3-itm {
+    width: 100%;
+    height: auto;
+    /* border: #3e8e00 solid;
+    background-color: #ffcf86; */
+}
+
+.crd-prf {
+    display: flex;
+    /* border: red solid 1px; */
+    align-items: center;
+    padding-top: 1rem;
+}
+.crd-prf img{
+    /* padding-top: 2rem; */
+    padding-right: 2rem;
+    /* border: green solid 1px; */
+
+}
+
+
+
+.sc4-tit {
+    text-align: center;
+}
+.sc4-tit h1{
+    font-size: 36px;
+}
+.sc4-tit p{
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #525252;
+    font-size: 14px;
+}
+
+
+.sc4-crds {
+    display: flex;
+    margin-top: 5rem;
+    gap:2rem;
+}
+.crd-4 {
+    width: 50%;
+}
+.crd-4-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cnt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* gap: 1rem; */
+}
+.cnt input {
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 5px
+}
